@@ -1,33 +1,49 @@
 body {
     margin: auto;
+    padding: 0;
     background: url(../images/glamorous-sparkly-background.png);
 }
 
-.container-fluid {
-    margin: 10px;
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    margin: 0 auto;
     padding: 10px;
-    border: 1px;
     height: 700px;
-    width: 100%;
+    width: 70%;
     font-size: 5px;
     background-color: #2ba6cb;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    float: none;
 }
     
 .jumbotron {
     font-size: 55px;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
     text-align: center;
-    font-style: bold;
-    padding: 5px;
-    margin: 0;
-    display: block;
 }
 
-#Rules {
-    font-size: 20px;
+#Title {
+    text-align: center;
+    display: inline;
+}
+
+.card {
+    font-size: 18px;
+    padding: 10px;
+    margin: 0 auto;
+
 }
 
 #score-keeping {
     font-size: 20px;
+    padding: 10px;
+    margin: 0 auto;
 }
