@@ -3,7 +3,7 @@ body {
     background: url(../images/glamorous-sparkly-background.png);
 }
 
-.container {
+.container-fluid {
     margin: 10px;
     padding: 10px;
     border: 1px;

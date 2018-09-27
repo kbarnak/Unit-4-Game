@@ -11,7 +11,7 @@
     <title>Crystal Catcher</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
                 <div class="jumbotron">
@@ -31,17 +31,25 @@
         </div>
 
         <div class="row" id="score-keeping">
-            <div class="col-sm-6">
+            <div class="col-sm-3">
                 <!-- <div class="panel panel-default"> -->
-                    <div class="Random-Number">Random Number
+                    <div class="computer-random">Match this #
 
                     </div>
                 <!-- </div> -->
             </div>
 
             <div class="col-sm-3">
+            <!-- <div class="panel panel-default"> -->
+                <div class="user-number">Your Number
+                            
+                </div>
+            <!-- </div> -->
+            </div>      
+
+            <div class="col-sm-3">
                 <!-- <div class="panel panel-default"> -->
-                    <div class="Wins-Score">Wins
+                    <div class="wins">Wins
                                 
                     </div>
                 <!-- </div> -->
@@ -49,19 +57,39 @@
             
             <div class="col-sm-3">
                 <!-- <div class="panel panel-default"> -->
-                    <div class="Lose-Score">Losses
+                    <div class="losses">Losses
                                 
                     </div>
                 <!-- </div> -->
             </div>
         </div>
+        <br><br><br>
     
 
         <div class="row">
-            <div class="col-sm-3"><img src="assets/images/swarovski.png" alt="purple-crystal" class="img-thumbnail"></div>
-            <div class="col-sm-3"><img src="assets/images/emerald.png" alt="emerald" class="img-thumbnail"></div>
-            <div class="col-sm-3"><img src="assets/images/redgarnet.png" alt="redgarnet" class="img-thumbnail"></div>
-            <div class="col-sm-3"><img src="assets/images/yellowopal.png" alt="yellowopal" class="img-thumbnail"></div>
+            <div class="col-sm-3">
+                    <button class="btn btn-default" id="btn1">
+                        <img src="assets/images/swarovski.png" alt="purple-crystal" class="img-thumbnail">
+                    </button>
+            </div>
+
+            <div class="col-sm-3">
+                    <button class="btn btn-default" id="btn2">
+                        <img src="assets/images/emerald.png" alt="emerald" class="img-thumbnail">
+                    </button>
+            </div>
+                    
+            <div class="col-sm-3">
+                    <button class="btn btn-default" id="btn3">
+                        <img src="assets/images/redgarnet.png" alt="redgarnet" class="img-thumbnail">
+                    </button>
+            </div>
+
+            <div class="col-sm-3">
+                    <button class="btn btn-default" id="btn4">
+                        <img src="assets/images/yellowopal.png" alt="yellowopal" class="img-thumbnail">
+                    </button>
+            </div>
         </div>
 </div>
 
