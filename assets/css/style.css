@@ -1,0 +1,33 @@
+body {
+    margin: auto;
+    background: url(../images/glamorous-sparkly-background.png);
+}
+
+.container {
+    margin: 10px;
+    padding: 10px;
+    border: 1px;
+    height: 700px;
+    width: 100%;
+    font-size: 5px;
+    background-color: #2ba6cb;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+    
+.jumbotron {
+    font-size: 55px;
+    text-align: center;
+    font-style: bold;
+    padding: 5px;
+    margin: 0;
+    display: block;
+}
+
+#Rules {
+    font-size: 20px;
+}
+
+#score-keeping {
+    font-size: 20px;
+}
