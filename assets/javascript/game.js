@@ -79,6 +79,6 @@ $("#player-wins").text(wins);
 $("#player-losses").text(losses);
     gameReset();
 }
-}
+};
 
 run();
